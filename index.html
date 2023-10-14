@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <title>House</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img class="logo_img" src="./img/logo.svg" alt="logo">
+            <ul class="header_menu_list">
+                <li class="header_menu_item catalog">Репродукции</li>
+                <li class="header_menu_item newcollection">Новинки</li>
+                <li class="header_menu_item aboutUs">О нас</li>
+                <li class="header_menu_item basket"><img src="./img/Frame 217.svg" alt="basket"> <span
+                        class="cartCount"></span>
+                    <div class="basket_product hide">
+                        <div class="basketRow basketHeader">
+                            <div>Название товара</div>
+                            <div>Количество</div>
+                            <div>Цена за шт.</div>
+                            <div>Итого</div>
+                        </div>
+                        <div class="basketTotal">
+                            Товаров в корзине на сумму:₽
+                            <span class="basketTotalValue">0</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <section class="hero">
+            <div class="hero_photo"><img class="hero_photo_bird" src="./img/bird.jpg" alt="bird"></div>
+            <div class="hero_information">
+                <h1 class="hero_head">Реплики картин</h1>
+                <div class="hero_head">
+                    <h1 class="hero_head">от</h1>
+                    <h1 class="hero_head_green">Ink.House</h1>
+                </div>
+                <p class="hero_description">Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие
+                    произведения, доступные цены.
+                </p>
+                <button class="hero_btn">Продукция</button>
+            </div>
+        </section>
+        <section class="reproductions">
+            <div class="reproductions_nav">
+                <h2 class="reproductions_nav_head">Репродукции</h2>
+                <button class="reproductions_nav_btn fra">Франция</button>
+                <button class="reproductions_nav_btn ger">Германия</button>
+                <button class="reproductions_nav_btn eng">Англия</button>
+            </div>
+            <ul class="products_list">
+                <li class="product_items fra">
+                    <img src="./img/hunter amur.jpg" alt="hunter amur">
+                    <p class="product_items_author">Марсель Руссо</p>
+                    <h3 class="product_items_name">Охотоа Амура</h3>
+                    <p class="product_items_materials">Холст,масло(50х80)</p>
+                    <p class="product_items_price">14 500 руб</p>
+                    <button class="product_items_btn" data-id="1" data-price="14500" data-name="Охота Амура">В
+                        корзину</button>
+                </li>
+                <li class="product_items fra">
+                    <img src="./img/woman dog.jpg" alt="woman with dog">
+                    <p class="product_items_author">Анри Селин</p>
+                    <h3 class="product_items_name">Дама с собачкой</h3>
+                    <p class="product_items_materials">Акрил,бумага(50Х80)</p>
+                    <p class="product_items_price">16 500 руб</p>
+                    <button class="product_items_btn" data-id="2" data-price="16500" data-name="Дама с собачкой">В
+                        корзину</button>
+                </li>
+                <li class="product_items fra">
+                    <img src="./img/healer.jpg" alt="healer">
+                    <p class="product_items_author">Франсуа Дюпон</p>
+                    <h3 class="product_items_name">Процедуа</h3>
+                    <p class="product_items_materials">Цветная литография(40Х60)</p>
+                    <p class="product_items_price">20 000 руб</p>
+                    <button class="product_items_btn" data-id="3" data-price="20000" data-name="Процедуа">В
+                        корзину</button>
+                </li>
+                <li class="product_items fra">
+                    <img src="./img/rose.jpg" alt="Rose">
+                    <p class="product_items_author">Луи Детуш</p>
+                    <h3 class="product_items_name">Роза</h3>
+                    <p class="product_items_materials">Бумага,акрил(50Х80)</p>
+                    <p class="product_items_price">12 000 руб</p>
+                    <button class="product_items_btn" data-id="4" data-price="12000" data-name="Роза">В корзину</button>
+                </li>
+                <li class="product_items fra">
+                    <img src="./img/bird eat.jpg" alt="bird eating">
+                    <p class="product_items_author">Франсуа Дюпон</p>
+                    <h3 class="product_items_name">Птичья трапеза</h3>
+                    <p class="product_items_materials">Цветная литография(40Х60)</p>
+                    <p class="product_items_price">22 500 руб</p>
+                    <button class="product_items_btn" data-id="5" data-price="22500" data-name="Птичья трапеза">В
+                        корзину</button>
+                </li>
+                <li class="product_items fra">
+                    <img src="./img/fish.jpg" alt="fish">
+                    <p class="product_items_author">Пьер Моранж</p>
+                    <h3 class="product_items_name">Пейзаж с рыбой</h3>
+                    <p class="product_items_materials">цветная литография(40Х60)</p>
+                    <p class="product_items_price">20 000 руб</p>
+                    <button class="product_items_btn" data-id="6" data-price="20000" data-name="Пейзаж с рыбой">В
+                        корзину</button>
+                </li>
+                <li class="product_items ger">
+                    <img src="./img/03.jpg" alt="photo">
+                    <p class="product_items_author">Курт Вернер</p>
+                    <h3 class="product_items_name">Над городом</h3>
+                    <p class="product_items_materials">цветная литография(40Х60)</p>
+                    <p class="product_items_price">16 000 руб</p>
+                    <button class="product_items_btn" data-id="7" data-price="16000" data-name="Над городом">В
+                        корзину</button>
+                </li>
+                <li class="product_items ger">
+                    <img src="./img/03 (1).jpg" alt="bird">
+                    <p class="product_items_author">Макс рихтер</p>
+                    <h3 class="product_items_name">Птенцы</h3>
+                    <p class="product_items_materials">холст,масло(50Х80)</p>
+                    <p class="product_items_price">14 500 руб</p>
+                    <button class="product_items_btn" data-id="8" data-price="14500" data-name="Птенцы">В
+                        корзину</button>
+                </li>
+                <li class="product_items ger">
+                    <img src="./img/03 (2).jpg" alt="between leafs">
+                    <p class="product_items_author">Мартин Майер</p>
+                    <h3 class="product_items_name">Среди листьев</h3>
+                    <p class="product_items_materials">Цветная литография(40Х60)</p>
+                    <p class="product_items_price">20 000 руб</p>
+                    <button class="product_items_btn" data-id="9" data-price="20000" data-name="Среди листьев">В
+                        корзину</button>
+                </li>
+                <li class="product_items ger">
+                    <img src="./img/03 (3).jpg" alt="bird">
+                    <p class="product_items_author">Герман Беккер</p>
+                    <h3 class="product_items_name">Яркая птица</h3>
+                    <p class="product_items_materials">Цветная литография(40Х60)</p>
+                    <p class="product_items_price">13 000 руб</p>
+                    <button class="product_items_btn" data-id="10" data-price="13000" data-name="Яркая птица">В
+                        корзину</button>
+                </li>
+                <li class="product_items ger">
+                    <img src="./img/03 (4).jpg" alt="bird">
+                    <p class="product_items_author">Вульф Бауэр</p>
+                    <h3 class="product_items_name">Дятлы</h3>
+                    <p class="product_items_materials">Бумага,акрил(50Х80)</p>
+                    <p class="product_items_price">20 000 руб</p>
+                    <button class="product_items_btn" data-id="11" data-price="20000" data-name="Дятлы">В
+                        корзину</button>
+                </li>
+                <li class="product_items ger">
+                    <img src="./img/03 (5).jpg" alt="window">
+                    <p class="product_items_author">Вальтер Хартманн</p>
+                    <h3 class="product_items_name">Большие воды</h3>
+                    <p class="product_items_materials">Бумага,акрил(50Х80)</p>
+                    <p class="product_items_price">23 000 руб</p>
+                    <button class="product_items_btn" data-id="12" data-price="23000" data-name="Большие воды">В
+                        корзину</button>
+                </li>
+                <li class="product_items eng">
+                    <img src="./img/wild beast.jpg" alt="best">
+                    <p class="product_items_author">Пол Смит</p>
+                    <h3 class="product_items_name">Дикий зверь</h3>
+                    <p class="product_items_materials">Акварель,бумага(50х80)</p>
+                    <p class="product_items_price">19 500 руб</p>
+                    <button class="product_items_btn" data-id="13" data-price="19500" data-name="Дикий зверь">В
+                        корзину</button>
+                </li>
+                <li class="product_items eng">
+                    <img src="./img/rocky coast.jpg" alt="rocky coast">
+                    <p class="product_items_author">Джон Уайт</p>
+                    <h3 class="product_items_name">Скалитсый берег</h3>
+                    <p class="product_items_materials">Цветная литография(40Х60)</p>
+                    <p class="product_items_price">17 500 руб</p>
+                    <button class="product_items_btn" data-id="14" data-price="17500" data-name="Скалитсый берег">В
+                        корзину</button>
+                </li>
+                <li class="product_items eng">
+                    <img src="./img/river rock.jpg" alt="river rock">
+                    <p class="product_items_author">Джим Уотсон</p>
+                    <h3 class="product_items_name">Река и горы</h3>
+                    <p class="product_items_materials">Акварель,бумага(50х80)</p>
+                    <p class="product_items_price">20 500 руб</p>
+                    <button class="product_items_btn" data-id="15" data-price="20500" data-name="Река и горы">В
+                        корзину</button>
+                </li>
+                <li class="product_items eng">
+                    <img src="./img/white bird.jpg" alt="bird">
+                    <p class="product_items_author">Юджин Зиллион</p>
+                    <h3 class="product_items_name">Белый попугай</h3>
+                    <p class="product_items_materials">Цветная литография(40Х60)</p>
+                    <p class="product_items_price">15 500 руб</p>
+                    <button class="product_items_btn" data-id="16" data-price="15500" data-name="Белый попугай">В
+                        корзину</button>
+                </li>
+                <li class="product_items eng">
+                    <img src="./img/night fish.jpg" alt="night fish">
+                    <p class="product_items_author">Эрик Гиллман</p>
+                    <h3 class="product_items_name">Ночная рыба</h3>
+                    <p class="product_items_materials">Бумага,акрил(50Х80)</p>
+                    <p class="product_items_price">12 500 руб</p>
+                    <button class="product_items_btn" data-id="17" data-price="12500" data-name="Ночная рыба">В
+                        корзину</button>
+                </li>
+                <li class="product_items eng">
+                    <img src="./img/orange cat.jpg" alt="orange cat">
+                    <p class="product_items_author">Альфред Барр</p>
+                    <h3 class="product_items_name">Рыжий кот</h3>
+                    <p class="product_items_materials">цветная литография(40Х60)</p>
+                    <p class="product_items_price">21 000 руб</p>
+                    <button class="product_items_btn" data-id="18" data-price="21000" data-name="Рыжий кот">В
+                        корзину</button>
+                </li>
+            </ul>
+        </section>
+        <section class="new_collection">
+            <div class="new_collection_container">
+                <div class="new_collection_logo">
+                    <img src="./img/Star 2.svg" alt="new collection logo">
+                    <p class="new_collection_logo_text">Новая коллекция французких авторов</p>
+                </div>
+
+                <p class="new_collection_text">Сложно сказать, почему акционеры крупнейших компаний призывают нас к
+                    новым
+                    свершениям, которые, в свою
+                    очередь, должны быть заблокированы в рамках своих собственных рациональных ограничений.
+                </p>
+                <p class="new_collection_text">Принимая во внимание показатели успешности, граница обучения кадров
+                    предопределяет высокую
+                    востребованность направлений прогрессивного развития.</p>
+
+                <button class="new_collection_btn">Ознакомиться</button>
+            </div>
+        </section>
+        <section class="team">
+            <img src="./img/Group 210.jpg" class="team_img" alt="hand">
+            <div class="team_description">
+                <h3 class="reproductions_nav_head">Наша команда</h3>
+                <p class="team_text">Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет
+                    оценить значение
+                    экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены отталкиваться от того,
+                    что консультация с широким активом.</p>
+                <div class="team_img">
+                    <img src="./img/Ellipse 30.jpg" alt="photo">
+                    <img src="./img/Ellipse 31.jpg" alt="photo">
+                    <img src="./img/Ellipse 32.jpg" alt="photo">
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <img src="./img/logo.svg">
+            <div class="footer_phone">
+                <h3>+7(000)00-00-00</h3>
+                <p>Наша мастесркая</p>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

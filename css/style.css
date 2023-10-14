@@ -1,0 +1,241 @@
+.body {
+    font-family: "Raleway";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    background-color: #E1EDE6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo_img {
+    width: 143px;
+}
+
+.header_menu_list {
+    display: flex;
+    list-style-type: none;
+}
+
+.header_menu_item {
+    margin: 30px 20px 0 0;
+}
+
+.header_menu_item:hover {
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero_photo_bird {
+    margin-left: 150px;
+}
+
+.hero_information {
+    width: 540px;
+    margin-top: 50px;
+}
+
+.hero_head {
+    display: flex;
+    font-size: 60px;
+}
+
+.hero_head_green {
+    margin-left: 10px;
+    color: #598D66;
+    font-size: 60px;
+}
+
+.hero_description {
+    color: #A1ABA6;
+    font-size: 18px;
+}
+
+.hero_btn {
+    width: 225px;
+    height: 65px;
+    color: #6C9A78;
+    border: 1px solid;
+}
+
+.hero_btn:hover,
+.product_items_btn:hover {
+    color: #F4F6F5;
+    background-color: #598D66;
+}
+
+.reproductions {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.reproductions_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reproductions_nav_head {
+    font-size: 40px;
+}
+
+.reproductions_nav_btn {
+    width: 135px;
+    height: 43px;
+    border-radius: 20px;
+    background-color: #D4E8D9;
+}
+
+.reproductions_nav_btn:hover {
+    color: #E1EDE6;
+    background-color: #376B44;
+}
+
+.products_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.product_items {
+    background-color: #E1EDE6;
+    padding: 10px;
+    margin: 10px;
+}
+
+.product_items_author {
+    font-size: 18px;
+    color: #86928B;
+    ;
+}
+
+.product_items_name {
+    font-size: 30px;
+}
+
+.product_items_materials {
+    font-size: 18px;
+}
+
+.product_items_price {
+    font-size: 24px;
+    color: #598D66;
+}
+
+.product_items_btn {
+    width: 310px;
+    height: 65px;
+    font-size: 20px;
+    background-color: #E1EDE6;
+    color: #598D66;
+    border: 1px solid #598D66;
+}
+
+.new_collection {
+    background-image: url('../img/pic_background.jpg');
+    height: 574px;
+    margin-bottom: 90px;
+}
+
+.new_collection_container {
+    width: 540px;
+    margin-left: 180px;
+}
+
+.new_collection_logo {
+    display: flex;
+    align-items: center;
+    width: 521px;
+}
+
+.new_collection_logo_text {
+    font-size: 40px;
+    color: #F4F6F5;
+}
+
+.new_collection_text {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.new_collection_btn {
+    width: 257px;
+    height: 65px;
+    font-size: 20px;
+    background: #EEDB6D;
+}
+
+.team {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team_description {
+    width: 635px;
+}
+
+.team_text {
+    font-size: 18px;
+}
+
+.team_img {
+    width: 325px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E1EDE6;
+}
+
+.hide {
+    display: none;
+}
+
+.basketRow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;
+}
+
+.basketHeader {
+    font-weight: bold;
+    width: 600px;
+}
+
+.basketTotal {
+    font-weight: bold;
+    text-align: right;
+}
+
+.basket_product {
+    position: absolute;
+    z-index: 3;
+    right: 200px;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid;
+}
